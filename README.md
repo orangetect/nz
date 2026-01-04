@@ -16,8 +16,8 @@
 | `GITHUB_REPO_OWNER` | `your_username`                 | ✅  | 备份仓库所有者                                                                          |
 | `GITHUB_REPO_NAME`  | `nezha-backup`                  | ✅  | 存储配置备份的仓库名称                                                                      |
 | `GITHUB_BRANCH`     | `main`                          | ✅  | 备份使用的分支名称                                                                        |
-| `ZIP_PASSWORD`      | `147369`                 | ✅  | 备份压缩包加密密码                                                                        |
-| `NZ_UUID`           | `f8ff434*************62e0`      | ❌  | `自动生成` 当前 Agent 的 UUID，用于探针上报                                                           |
+| `ZIP_PASSWORD`      | `147369`                        | ✅  | 备份压缩包加密密码                                                                        |
+| `NZ_UUID`           | `f8ff434*************62e0`      | ✅  |  在线生成访问:https://www.uuidgenerator.net/                                                           |
 | `NZ_CLIENT_SECRET`  | `kDerKiyNp*************mvj0XMy` | ❌  | `自动生成` 备份文件中 `.yaml` 文件里的 `agentsecretkey` 参数                                           |
 | `NZ_TLS`            | `true`                          | ❌  | 是否启用 TLS，默认 `true`                                                               |
 | `DASHBOARD_VERSION` | `v1.14.1`                       | ❌  | 指定部署的探针版本，默认 `latest`                                                            |
